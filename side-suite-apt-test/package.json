@@ -1,0 +1,25 @@
+{
+  "name": "apt-test",
+  "version": "0.0.0",
+  "jest": {
+    "extraGlobals": [],
+    "modulePaths": [
+      "C:\\Users\\hp\\AppData\\Roaming\\npm\\node_modules\\selenium-side-runner\\node_modules",
+      "C:\\Users\\hp\\AppData\\Roaming\\npm\\node_modules"
+    ],
+    "setupFilesAfterEnv": [
+      "C:\\Users\\hp\\AppData\\Roaming\\npm\\node_modules\\selenium-side-runner\\node_modules\\jest-environment-selenium\\dist\\setup.js"
+    ],
+    "testEnvironment": "jest-environment-selenium",
+    "testEnvironmentOptions": {
+      "capabilities": {
+        "browserName": "chrome"
+      },
+      "params": {},
+      "runId": "88a2db8a9b709500f9010d661fc09b84",
+      "path": "C:\\Users\\hp\\AppData\\Roaming\\npm\\node_modules\\",
+      "timeout": 15000
+    }
+  },
+  "dependencies": {}
+}

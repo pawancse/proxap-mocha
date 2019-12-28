@@ -1,0 +1,20 @@
+{
+  "name": "auto-thumbnail",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm test",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^79.0.0",
+    "express": "^4.17.1",
+    "mocha": "^6.2.2",
+    "request": "^2.88.0",
+    "selenium-side-runner": "^3.16.0"
+  },
+  "author": "pawan",
+  "license": "ISC"
+}
