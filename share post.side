@@ -1,0 +1,499 @@
+{
+  "id": "25a899ba-1720-4118-bdaa-d9833e6334a0",
+  "version": "2.0",
+  "name": "share post",
+  "url": "https://proxap.in",
+  "tests": [{
+    "id": "4c66ede7-ca0a-417e-bac7-1de1bc08e0b6",
+    "name": "share post",
+    "commands": [{
+      "id": "27c427fb-c225-4c94-ad7f-ffa84083b666",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b12e55f-de31-425b-8766-5fa4822a0daa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c61cc20a-5b8b-4cc3-b78d-6243a82ecc5d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Imran Khan blames ‘powerful Indian lobby’ in America for playing key role in strengthening New Delhi’s narrative against Pakistan",
+      "targets": [
+        ["linkText=Imran Khan blames ‘powerful Indian lobby’ in America for playing key role in strengthening New Delhi’s narrative against Pakistan", "linkText"],
+        ["css=.twp-row:nth-child(2) > .story-list:nth-child(11) .entry-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Imran Khan blames ‘powerful Indian lobby’ in America for playing key role in strengthening New Delhi’s narrative against Pakistan')]", "xpath:link"],
+        ["xpath=//div[@id='page']/div[2]/div/div[2]/article[11]/div/div/div[2]/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://proxap.in/2019/12/29/imran-khan-blames-powerful-indian-lobby-in-america-for-playing-key-role-in-strengthening-new-delhis-narrative-against-pakistan/')])[2]", "xpath:href"],
+        ["xpath=//article[11]/div/div/div[2]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Imran Khan blames ‘powerful Indian lobby’ in America for playing key role in strengthening New Delhi’s narrative against Pakistan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fc68d5c-e0c8-4024-abb1-a2e2ae2d57dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.twp-social-share:nth-child(2) .twp-social-facebook .twp-social-count > .booster-icon",
+      "targets": [
+        ["css=.twp-social-share:nth-child(2) .twp-social-facebook .twp-social-count > .booster-icon", "css:finder"],
+        ["xpath=//article[@id='post-124083']/div/div/div/div[2]/div/div/a/span/i", "xpath:idRelative"],
+        ["xpath=//a/span/i", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6028",
+      "windowTimeout": 2000
+    }, {
+      "id": "a85d4120-7f8a-4579-8ebd-3349898144a1",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0232e615-69cc-4319-98d8-c7b558fcc539",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6028}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71e039a9-c07d-42a8-ab8c-4ba795676241",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_55pe:nth-child(1) > span",
+      "targets": [
+        ["css=.\\_55pe:nth-child(1) > span", "css:finder"],
+        ["xpath=//div[@id='u_0_n']/div/div/div/div/a/span/span", "xpath:idRelative"],
+        ["xpath=//a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "898ade94-03b1-4869-be72-ba1b1ab613d6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_55pe:nth-child(1) > span",
+      "targets": [
+        ["css=.\\_55pe:nth-child(1) > span", "css:finder"],
+        ["xpath=//div[@id='u_0_n']/div/div/div/div/a/span/span", "xpath:idRelative"],
+        ["xpath=//a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a03a0b47-4470-416a-8b71-4f9a1482987c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_55pe:nth-child(1) > span",
+      "targets": [
+        ["css=.\\_55pe:nth-child(1) > span", "css:finder"],
+        ["xpath=//a[@id='js_e']/span/span", "xpath:idRelative"],
+        ["xpath=//a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7693ef9e-2c70-4776-bcd9-b2b8bf267803",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_42y_ .\\_54nh > span",
+      "targets": [
+        ["css=.\\_42y_ .\\_54nh > span", "css:finder"],
+        ["xpath=//div[@id='js_f']/div/ul/li[5]/a/span/span/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59f11761-5faa-4cac-bb76-f726afffbdda",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focused .\\_55pe",
+      "targets": [
+        ["css=.focused .\\_55pe", "css:finder"],
+        ["xpath=//div[@id='u_0_n']/div/div[2]/div/div/div/div/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'IEEE with BCET')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01ccb5a5-c7b4-4587-b2ae-3989b1fb4455",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ProXap",
+      "targets": [
+        ["linkText=ProXap", "linkText"],
+        ["css=.\\_54ne > .\\_54nc", "css:finder"],
+        ["xpath=//div[@id='js_1l']/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[20]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ProXap')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85bb8111-81c6-4e24-ba08-475cb50072d1",
+      "comment": "",
+      "command": "click",
+      "target": "id=u_0_t",
+      "targets": [
+        ["id=u_0_t", "id"],
+        ["name=xhpc_message_text", "name"],
+        ["css=#u_0_t", "css:finder"],
+        ["xpath=//textarea[@id='u_0_t']", "xpath:attributes"],
+        ["xpath=//div[@id='u_0_5']/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d98478be-affd-4e9c-b415-dc5eabb30b89",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#u_0_1t > .\\_2aha",
+      "targets": [
+        ["css=#u_0_1t > .\\_2aha", "css:finder"],
+        ["xpath=//a[@id='u_0_1t']/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78ef3fe5-8e7c-459d-9cdb-ae36c16c8f4e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#u_0_1t > .\\_2aha",
+      "targets": [
+        ["css=#u_0_1t > .\\_2aha", "css:finder"],
+        ["xpath=//a[@id='u_0_1t']/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46e75bfe-4578-43d9-a752-69d65acc98e4",
+      "comment": "",
+      "command": "type",
+      "target": "id=u_0_t",
+      "targets": [
+        ["id=u_0_t", "id"],
+        ["name=xhpc_message_text", "name"],
+        ["css=#u_0_t", "css:finder"],
+        ["xpath=//textarea[@id='u_0_t']", "xpath:attributes"],
+        ["xpath=//div[@id='u_0_5']/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Top Story"
+    }, {
+      "id": "c08e7bf0-2f78-4c72-99eb-0294477b24a8",
+      "comment": "",
+      "command": "click",
+      "target": "id=u_0_26",
+      "targets": [
+        ["id=u_0_26", "id"],
+        ["css=#u_0_26", "css:finder"],
+        ["xpath=//span[@id='u_0_26']", "xpath:attributes"],
+        ["xpath=//button[@id='u_0_25']/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Post to Facebook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00d41ffd-01ae-4c68-b995-59fa2e5a2ffb",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83ed3661-d658-49e0-8f26-d116948014f7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "201bdf97-68d2-416a-8378-a78b4672fdeb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.twp-social-share:nth-child(2) .twp-social-twitter .twp-social-count > .booster-icon",
+      "targets": [
+        ["css=.twp-social-share:nth-child(2) .twp-social-twitter .twp-social-count > .booster-icon", "css:finder"],
+        ["xpath=//article[@id='post-124083']/div/div/div/div[2]/div/div[2]/a/span/i", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span/i", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8062",
+      "windowTimeout": 2000
+    }, {
+      "id": "c52c857a-7fbf-4d3e-b1cb-bfabe9fc9629",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8062}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fde77319-f2a4-4737-b266-b905d3b28fd6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Tweet']", "xpath:attributes"],
+        ["xpath=//form[@id='update-form']/div[3]/fieldset/input", "xpath:idRelative"],
+        ["xpath=//fieldset/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7815cca3-1bc3-4c0f-99cb-a8f1beb8934c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd8af547-ea99-479b-9225-0a2fd57f7a5b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41e1322a-6178-4c39-b706-f668afb28bfa",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "linkText=Proxap",
+      "targets": [
+        ["linkText=Proxap", "linkText"],
+        ["css=.site-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Proxap')]", "xpath:link"],
+        ["xpath=//header[@id='masthead']/div[2]/div/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://proxap.in/')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Proxap')]", "xpath:innerText"]
+      ],
+      "value": "82.33333206176758,38.66666603088379"
+    }, {
+      "id": "4a2c5b69-7241-42ba-b694-348da73df6d6",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "linkText=Proxap",
+      "targets": [
+        ["linkText=Proxap", "linkText"],
+        ["css=.site-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Proxap')]", "xpath:link"],
+        ["xpath=//header[@id='masthead']/div[2]/div/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://proxap.in/')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Proxap')]", "xpath:innerText"]
+      ],
+      "value": "82.33333206176758,38.66666603088379"
+    }, {
+      "id": "293c3e53-c2ed-47a7-ac16-5264403069f1",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "linkText=Proxap",
+      "targets": [
+        ["linkText=Proxap", "linkText"],
+        ["css=.site-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Proxap')]", "xpath:link"],
+        ["xpath=//header[@id='masthead']/div[2]/div/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://proxap.in/')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Proxap')]", "xpath:innerText"]
+      ],
+      "value": "82.33333206176758,38.66666603088379"
+    }, {
+      "id": "8f92bfb9-6045-48a0-84cf-e6fb86a388a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Proxap",
+      "targets": [
+        ["linkText=Proxap", "linkText"],
+        ["css=.site-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Proxap')]", "xpath:link"],
+        ["xpath=//header[@id='masthead']/div[2]/div/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://proxap.in/')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Proxap')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cae0781e-1e0e-4075-80e9-4b1fabe6284f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Scott McTominay: Manchester United midfielder out for ‘three to four weeks’",
+      "targets": [
+        ["linkText=Scott McTominay: Manchester United midfielder out for ‘three to four weeks’", "linkText"],
+        ["css=.story-list:nth-child(1) > .column .entry-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Scott McTominay: Manchester United midfielder out for ‘three to four weeks’')]", "xpath:link"],
+        ["xpath=//div[@id='page']/div[5]/div/div/div/div/article/div/div/div[2]/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://proxap.in/2019/12/28/scott-mctominay-manchester-united-midfielder-out-for-three-to-four-weeks/')])[2]", "xpath:href"],
+        ["xpath=//div[5]/div/div/div/div/article/div/div/div[2]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Scott McTominay: Manchester United midfielder out for ‘three to four weeks’')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eea33a8f-309b-43a6-990a-2436c8d04b8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.twp-social-share:nth-child(2) .twp-social-facebook .twp-social-count > .booster-icon",
+      "targets": [
+        ["css=.twp-social-share:nth-child(2) .twp-social-facebook .twp-social-count > .booster-icon", "css:finder"],
+        ["xpath=//article[@id='post-114293']/div/div/div/div[2]/div/div/a/span/i", "xpath:idRelative"],
+        ["xpath=//a/span/i", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6193",
+      "windowTimeout": 2000
+    }, {
+      "id": "773a1d98-bb7b-4918-8d2b-fd9dcb962ae7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6193}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba009f5f-1b4d-4f81-86c4-71948cc117d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_55pe:nth-child(1) > span",
+      "targets": [
+        ["css=.\\_55pe:nth-child(1) > span", "css:finder"],
+        ["xpath=//div[@id='u_0_n']/div/div/div/div/a/span/span", "xpath:idRelative"],
+        ["xpath=//a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "406ed688-c9b0-434f-b4ae-bf63ed1d5fb2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_42y_ .\\_54nh",
+      "targets": [
+        ["css=.\\_42y_ .\\_54nh", "css:finder"],
+        ["xpath=//div[@id='js_d']/div/ul/li[5]/a/span/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "545e802b-3bce-42db-80ca-35623f5be8ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focused .\\_55pe",
+      "targets": [
+        ["css=.focused .\\_55pe", "css:finder"],
+        ["xpath=//div[@id='u_0_n']/div/div[2]/div/div/div/div/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'IEEE with BCET')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a9f96ee-8073-4088-96d6-0e8dc5267dd7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ProXap",
+      "targets": [
+        ["linkText=ProXap", "linkText"],
+        ["css=.\\_54ne > .\\_54nc", "css:finder"],
+        ["xpath=//div[@id='js_1u']/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[20]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ProXap')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "594dc01e-473c-4f12-b0f6-74291865f35b",
+      "comment": "",
+      "command": "click",
+      "target": "id=u_0_26",
+      "targets": [
+        ["id=u_0_26", "id"],
+        ["css=#u_0_26", "css:finder"],
+        ["xpath=//span[@id='u_0_26']", "xpath:attributes"],
+        ["xpath=//button[@id='u_0_25']/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Post to Facebook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12da20b8-a6b9-4d7f-bb3d-bf51809059ff",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80e8b8b0-7a8d-4d69-babc-50721db87e18",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "316b17df-00bf-472f-a4da-357ccbb659f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.twp-social-share:nth-child(2) .twp-social-twitter .twp-social-count > .booster-icon",
+      "targets": [
+        ["css=.twp-social-share:nth-child(2) .twp-social-twitter .twp-social-count > .booster-icon", "css:finder"],
+        ["xpath=//article[@id='post-114293']/div/div/div/div[2]/div/div[2]/a/span/i", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span/i", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5151",
+      "windowTimeout": 2000
+    }, {
+      "id": "89994636-2cd0-48ea-b6db-066377b52ac3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5151}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "697fbc0d-9d1b-4e7e-9c58-7a8ae7aa5218",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Tweet']", "xpath:attributes"],
+        ["xpath=//form[@id='update-form']/div[3]/fieldset/input", "xpath:idRelative"],
+        ["xpath=//fieldset/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a95d135f-64fd-43d3-a7f1-b0892a1d58f1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ff0b182-8176-474d-98f8-f182e5a32968",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07632b87-3fe0-47c1-a70d-e7c53fb0ec0f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b9fe29e0-beda-45b6-8a98-821ac0f761a4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4c66ede7-ca0a-417e-bac7-1de1bc08e0b6"]
+  }],
+  "urls": ["https://proxap.in/"],
+  "plugins": []
+}
